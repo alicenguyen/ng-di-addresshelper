@@ -1,11 +1,12 @@
 import {Input, Injectable, AfterViewInit, OnChanges, SimpleChanges} from '@angular/core';
 import {Address} from "./address.model";
+import {environment} from "../environments/environment";
 
 @Injectable()
 export class AddressHelperService {
 
     config: object = {
-        apiKey: "kC790mVpIK0HwNHz08gwAhJfclPUoRQt",
+        apiKey: environment.diah_api_key,
         lookOnlyForAddress: true
     };
 

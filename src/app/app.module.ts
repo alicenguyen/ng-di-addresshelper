@@ -9,6 +9,8 @@ import {AddressListComponent} from './address-list/address-list.component';
 import {AddressHelperService} from "./address-helper.service";
 import {AddressService} from "./address.service";
 
+import {} from 'dotenv/config'
+
 @NgModule({
     declarations: [
         AppComponent,
