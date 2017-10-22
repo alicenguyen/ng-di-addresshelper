@@ -1,0 +1,10 @@
+.address-detail-wrapper {
+   display: flex;
+   width: 900px
+}
+
+.address-detail-block {
+   width:500px;
+   margin-right:15px;
+   margin-left:15px;
+}

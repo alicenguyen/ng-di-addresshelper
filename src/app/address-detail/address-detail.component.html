@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-7">
+      <div class="card-body" [ngClass]="address.isValid ? 'alert alert-succes': ''">
+        <div #elem [id]="address.id"></div>
+      </div>
+    </div>
+    <div class="col-md-5">
+      <div class="card">
+        <span *ngIf="address.isValid" class="card-header badge badge-success">valid</span>
+        <span *ngIf="!address.isValid" class="card-header badge badge-default">new address</span>
+        <div class="card-body">
+          <samp>
+          {{address.name}}
+          </samp>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

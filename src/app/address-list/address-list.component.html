@@ -1,0 +1,16 @@
+<div class="list-group">
+  <div class="list-group-item">
+    <div class="row">
+      <div class="col-md-8">
+        <p> {{addresses.length}} addresses </p>
+        <button class="btn btn-default"
+                (click)="createAddress()">add address
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <ze-address-detail *ngFor="let address of addresses"
+                     class="list-group-item "
+                     [address]="address"></ze-address-detail>
+</div>
