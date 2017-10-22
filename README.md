@@ -1,6 +1,6 @@
 # NgZenAddress
 
-Pretty docs are [here]('https://alicenguyen.github.io/ng-zen-address/')
+Pretty docs are [here](https://alicenguyen.github.io/ng-zen-address/)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
