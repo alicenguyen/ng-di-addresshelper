@@ -397,7 +397,7 @@
                             </tr>
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/address-helper.service.ts:16</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/address-helper.service.ts:17</a></div>
                                         </td>
                                     </tr>
             
@@ -427,7 +427,7 @@
             
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="22" class="link-to-prism">src/app/address-helper.service.ts:22</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/address-helper.service.ts:23</a></div>
                                         </td>
                                     </tr>
             
@@ -500,7 +500,7 @@
                                 </tr>
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="14" class="link-to-prism">src/app/address-helper.service.ts:14</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="15" class="link-to-prism">src/app/address-helper.service.ts:15</a></div>
                                         </td>
                                     </tr>
             
@@ -529,7 +529,7 @@
                                 </tr>
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="7" class="link-to-prism">src/app/address-helper.service.ts:7</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="8" class="link-to-prism">src/app/address-helper.service.ts:8</a></div>
                                         </td>
                                     </tr>
             
@@ -558,7 +558,7 @@
                                 </tr>
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="12" class="link-to-prism">src/app/address-helper.service.ts:12</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="13" class="link-to-prism">src/app/address-helper.service.ts:13</a></div>
                                         </td>
                                     </tr>
             
@@ -592,7 +592,7 @@
                                 </tr>
                                     <tr>
                                         <td class="col-md-4">
-                                            <div class="io-line">Defined in <a href="" data-line="16" class="link-to-prism">src/app/address-helper.service.ts:16</a></div>
+                                            <div class="io-line">Defined in <a href="" data-line="17" class="link-to-prism">src/app/address-helper.service.ts:17</a></div>
                                         </td>
                                     </tr>
             
@@ -606,12 +606,13 @@
     <div class="tab-pane fade tab-source-code" id="source">
         <pre class="line-numbers"><code class="language-typescript">import {Input, Injectable, AfterViewInit, OnChanges, SimpleChanges} from &#x27;@angular/core&#x27;;
 import {Address} from &quot;./address.model&quot;;
+import {environment} from &quot;../environments/environment&quot;;
 
 @Injectable()
 export class AddressHelperService {
 
     config: object &#x3D; {
-        apiKey: &quot;kC790mVpIK0HwNHz08gwAhJfclPUoRQt&quot;,
+        apiKey: environment.diah_api_key,
         lookOnlyForAddress: true
     };
 
